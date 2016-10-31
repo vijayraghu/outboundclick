@@ -14,7 +14,7 @@ client =  TwilioRestClient(os.environ.get('TWILIO_ACCOUNT_SID'), os.environ.get(
 # Entry to outbound from pythontwil
 @app.route('/outbound', methods=['POST'])
 def outbound():
-	response = twiml.Response()
+	response = twilio.twiml.Response()
 	response.say("Please hold on while we connect you to an agent")
 	with response.dial() as dial:
 		dial.number(os.environ.get('DNIS_NUMBER'))
