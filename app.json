@@ -1,0 +1,7 @@
+{
+  "name": "Subapp for C2C Twilio",
+  "description": "C2C Twilio",
+  "repository": "https://github.com/vijayraghu/outboundclick",
+  "logo": "http://xvir.github.io/img/apiai.png",
+  "keywords": ["twil", "clik2call"]
+}
